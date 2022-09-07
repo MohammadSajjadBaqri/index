@@ -1,0 +1,39 @@
+body{
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #00abe1;
+    background-image: url(img/pattern.png);
+}
+
+.my-navbar{
+
+    background-color: #161f6d;
+    color: white;
+
+}
+
+.my-h1{
+
+    color: #161f6d;
+    font-weight: 800;
+    font-family: 'JetBrains Mono', Courier, monospace;
+
+}
+
+.my-para{
+
+    color: #161f6d;
+    font-weight: 100;
+    text-shadow: rgba(0, 0, 0, 0.7);
+
+}
+
+.my-btn{
+
+    background-color: #161f6d;
+    color: #00abe1;
+
+}
+
+.my-cards{
+    font-family: Inter, sans-serif;
+}
