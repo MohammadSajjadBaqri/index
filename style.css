@@ -37,3 +37,56 @@ body{
 .my-cards{
     font-family: Inter, sans-serif;
 }
+
+.view-more{
+    width: fit-content;
+    color: #161f6d;
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: 'JetBrains Mono', Courier, monospace;
+    font-size: x-large;
+}
+
+.view-more:hover, .viewmore:active{
+    color: #00abe1;
+    background-color: rgba(3, 44, 124, 0.734);
+}
+
+.my-java{
+    background-color: #161f6d;
+    color: #ffffff;
+}
+
+.my-java:hover{
+    background-color: #161f6dbc;
+    transition: 1s;
+}
+
+.my-download:hover{
+    font-weight: 700;
+    color:  rgb(202, 206, 255);
+    transition: 1s;
+}
+
+.download2{
+    color: white;
+}
+
+a:hover, a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer{
+    background-color: #161f6d;
+    color: white;
+}
+
+#footer h2{
+    font-family: 'JetBrains Mono', Courier, monospace;
+}
+
+.my-brand:hover, .my-brand:active{
+    color: #00abe1;
+    transition: 1s;
+}

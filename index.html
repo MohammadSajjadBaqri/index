@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
      <!-- STYLES  -->
 
@@ -20,7 +21,7 @@
 <body>
     
 
-    <nav class="navbar navbar-expand-lg navbar-dark my-navbar mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark my-navbar mb-5 fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="img/logo-white.png" alt="'M' Carved Into A Circle PNG Transparent Image" width="32" height="32">
@@ -30,30 +31,30 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="contact-me.html">Contact Me</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Java</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#java">Java</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">HTML</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#html">HTML</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Social Media</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#footer">Social Media</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown mx-2">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   More
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Java</a></li>
-                  <li><a class="dropdown-item" href="#">HTML</a></li>
+                  <li><a class="dropdown-item" href="java.html">Java</a></li>
+                  <li><a class="dropdown-item" href="html.html">HTML</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">About Me</a></li>
+                  <li><a class="dropdown-item" href="contact-me.html">Contact Me</a></li>
                 </ul>
               </li>
             </ul>
@@ -67,63 +68,138 @@
       </nav>
 
 
-<div class="container">
+<div class="container text-md-start text-center px-1">
 
 
-    <header class="row align-items-center my-5">
-        <div class="col-12 col-md-8 my-2">
+    <header class="row align-items-center my-5" id="header">
+        <div class="col-12 col-md-8 mb-2 mt-5">
             <h1 class="my-h1 display-4">Mohammad Sajjad Baqri</h1>
             <p class="my-para">I am a student learning to edit photos in Adobe Photoshop, create responsive websites through HTML and code easy programs using Java</p>
             <button class="btn btn-lg my-btn">Explore!</button>
         </div>
-        <div class="col-12 d-none d-md-inline col-md-4 my-2">
+        <div class="col-12 d-none d-md-inline col-md-4 mb-2 mt-5">
             <img src="img/logo-blue.png" alt="The letter 'M' carved within a blue circle PNG Transparent Image." width="100%" height="100%">
         </div>
     </header>
 
     <main>
 
+                <!-- SAJJAD's WEBSITES -->
 
-        <div class="row my-cards my-5">
+        <div class="row my-cards my-5" id="html">
             <div class="col-12">
                 <h2 class="my-h1 display-5 my-5">Sajjad's Websites</h2>
             </div>
                 <div class="col-12 col-md-4 my-1 mx-auto card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/websites/harry.png" class="card-img-top" alt="Harry Potter Website Theme">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h5 class="card-title">Harry Potter</h5>
+                      <p class="card-text">The first website made by me is about my favourite cartoon character, Harry Potter. This is not a perfect website but its surely good enough as a first website by a beginner.</p>
+                      <a href="https://mohammadsajjadbaqri.github.io/harry-potter" target="_blank" class="btn btn-primary">Visit Website</a>
                     </div>
                   </div>
                 <div class="col-12 col-md-4 mx-auto my-1 card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/websites/youtube.png" class="card-img-top" alt="Download YouTube Premium For Free?">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h5 class="card-title">Download YouTube</h5>
+                      <p class="card-text">Just after some days after building my first website, Googele asked me to make a website for them for downloading YouTube. So go and download now!</p>
+                      <a href="https://mohammadsajjadbaqri.github.io/download-youtube" target="_blank" class="btn btn-primary">Visit Website</a>
                     </div>
                   </div>
                 <div class="col-12 col-md-4 mx-auto my-1 card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/websites/chef.png" class="card-img-top" alt="Chef Abraham's Kitchen - Experienc the taste of heaven's food!">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h5 class="card-title">Chef Abraham's Kitchen</h5>
+                      <p class="card-text">Abraham is among the top 10 chefs of the world. He asked me to build a website for him. So, I made a website for him also. His food is delicious. Order now!</p>
+                      <a href="https://mohammadsajjadbaqri.github.io/chef-abrahams-kitchen" class="btn btn-primary" target="_blank">Visit Website</a>
                     </div>
                   </div>
-                  <div class="col-12 col-md-4 mx-auto my-1 card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="col-12 col-md-4 mx-auto my-1 card" style="width: 18rem;">
+                    <img src="img/websites/flash.png" class="card-img-top" alt="Motorcycle Company Tempalate">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h5 class="card-title">Flash Motorcycle</h5>
+                      <p class="card-text">I made an amazing website for world-famous bike company 'Flash Motorcycles'. It is a good company. Go to their website's contact us page and order a bike!</p>
+                      <a href="https://mohammadsajjadbaqri.github.io/flash-motorcycles" class="btn btn-primary" target="_blank">Visit Website</a>
                     </div>
                   </div>
-        </div>
+                <div class="col-12 text-end mt-5"><a class="view-more mt-5" href="#">View More!</a></div>
+                  
+        </div><hr>
+
+
+                <!-- SAJJAD's JAVA -->
+                
+                <div class="row my-5 sajjad-java" id="java">
+                  <div class="col-12">
+                      <h2 class="my-h1 display-5 my-5">Sajjad's Java Projects</h2>
+                  </div>
+
+            <div class="row h4 my-java rounded-pill">
+                <div class="col-1">
+                  <span class="material-symbols-outlined display-4">
+                    change_circle
+                    </span>
+                </div>
+
+                <div class="col-10 d-flex align-items-center"><span class="text-center d-block"> Feet to Centimeter Changer Pro</span></div>
+
+                <a href="apps/Feet to Centimeter Changer Pro - By Mohammad Sajjad Baqri.zip" class="col-1 text-end download2" download>
+                  <span class="material-symbols-outlined display-4 my-download">
+                    file_download
+                    </span>
+                </a>
+                </div>
+
+           <div class="row h4 my-java rounded-pill">
+                  <div class="col-1">
+                    <span class="material-symbols-outlined display-4">
+                      calculate
+                      </span>
+                  </div>
+  
+                  <div class="col-10 d-flex align-items-center"><span class="text-center d-block"> Simple Calculator</span></div>
+  
+                  <a href="apps/Simple Calculator - By Mohammad Sajjad Baqri.zip" class="col-1 text-end download2" download>
+                    <span class="material-symbols-outlined display-4 my-download">
+                      file_download
+                      </span>
+                  </a>
+               </div>
+
+            <div class="row h4 my-java rounded-pill">
+                <div class="col-1">
+                  <span class="material-symbols-outlined display-4">
+                    rtt
+                    </span>
+                </div>
+
+                <div class="col-10 d-flex align-items-center"><span class="text-center d-block"> Word Counter Pro</span></div>
+
+                <a href="apps/Word Counter Pro - By Mohammad Sajjad Baqri.zip" class="col-1 text-end download2" download>
+                  <span class="material-symbols-outlined display-4 my-download">
+                    file_download
+                    </span>
+                </a>
+             </div>
+                      
+                      <div class="col-12 text-end mt-5"><a class="view-more mt-5" href="#">View More!</a></div>
+                        
+              </div><hr>
 
 
     </main>
+
+
+<footer id="footer" class="row align-items-center p-5 rounded mb-3">
+  <img src="img/logo-white.png" alt="Letter 'M'  High Quality PNG" class="col-md-1 d-none d-md-block">
+  <h2 class="display-5 col-12 col-md-11">Mohammad Sajjad Baqri</h2>
+  <p class="col-12 lh-lg mt-3">Follow me on social media and <a href="#">contact me</a> if you need to do so:</p>
+  <ul class="col-12">
+    <a class="fa-brands fa-square-github h3 my-brand" href="https://github.com/MohammadSajjadBaqri"></a>
+    <a class="fa-solid fa-globe h3 my-brand" href="https://mohammadsajjadbaqri.github.io/index"></a>
+    <a class="fa-solid fa-sharp fa-envelope h3 my-brand" href="contact-me.html"></a>
+  </ul>
+</footer>
 
 
 
@@ -139,5 +215,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <script async src="https://cse.google.com/cse.js?cx=42d68f66a82a34aee"></script>
+<script src="https://kit.fontawesome.com/4cbd7b1912.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
